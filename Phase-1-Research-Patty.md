@@ -274,3 +274,557 @@ Each one includes: **what it is**, **why it's a real blocker**, and **what the r
 - [42 Experts Reveal Top Content Marketing Trends for 2026](https://contentmarketinginstitute.com/strategy-planning/trends-content-marketing)
 - [How to Build an Ideal Customer Profile (ICP) with AI](https://cleaninginmotion.com/blog/marketing/build-your-ideal-customer-profile-with-ai/)
 - [Lessons from Reddit: What r/entrepreneur Reveals About Building a Business Today](https://scaleupyoursuccess.com/business-growth/lessons-from-reddit-what-r-entrepreneur-reveals-about-building-a-business-today/)
+
+---
+
+# Phase 1 Frameworks: How to Actually Do Each of the 13 Things
+
+*Added April 14, 2026 — companion to the research above*
+*These are the "how to do it" structures for each research finding*
+
+---
+
+## How to Use This
+
+Each section below gives you a named framework and a step-by-step structure. These become the raw material for the slash commands we'll build. Don't try to do all 13 at once — they're roughly in order, and most people only need 3–4 at a time.
+
+---
+
+## 1. Validate Before You Build
+
+### Framework: The 3-Filter + 10-Conversation Test
+
+**The 3 Filters (run every idea through all three before going further):**
+
+| Filter | Question | Pass = |
+|---|---|---|
+| Frequency | Does this problem happen at least weekly for the client? | Yes |
+| Cost | Does it cost the business $50K+ per year (time, lost revenue, errors)? | Yes |
+| Budget authority | Is there someone who can approve spending within 30 days? | Yes |
+
+If any filter fails, either sharpen the idea or move on.
+
+**The 10-Conversation Framework:**
+
+Before building anything, have 10 real conversations with potential clients. Here's the structure for each:
+
+1. **Open:** "I'm exploring whether [problem] is something businesses like yours struggle with. Can I ask you a few questions?"
+2. **Pain discovery:** "Walk me through what happens when [problem] occurs. What does it cost you?"
+3. **Current solution:** "What are you doing about it today? What's frustrating about that?"
+4. **Desire:** "If this were solved, what would that make possible?"
+5. **The money question:** "If someone could solve this for you reliably, is that something you'd invest in?"
+
+After 10 conversations, look for patterns. If at least 7 people described the same pain and said yes to question 5, you have something real.
+
+**The Currency Test:**
+> "I'm building something to solve exactly this. I'm looking for 3 founding clients to shape it with me — at a reduced rate in exchange for feedback. Would you be one of them?"
+
+If they say yes and pull out a credit card (or ask for an invoice), you've validated. If they say "sounds great, let me know when it's ready" — that's not validation.
+
+---
+
+## 2. Pick a Niche
+
+### Framework: The Niche Selection Matrix
+
+Score each potential niche on these 5 dimensions (1–5 each, 25 = perfect):
+
+| Dimension | Question | Score (1–5) |
+|---|---|---|
+| Your knowledge | Do you already know this industry or problem? | |
+| Pain intensity | How expensive or urgent is this problem for them? | |
+| Budget | Do they have money to spend on solutions? | |
+| Competition | Is this underserved or overrun with AI consultants? | |
+| Access | Do you have a way to reach these people? | |
+
+Anything above 18 is worth pursuing. Below 12, keep looking.
+
+**The Niche Statement Formula:**
+
+> "I help **[specific type of business]** that are struggling with **[specific problem]** use AI to **[specific outcome]** — without **[the thing they fear most]**."
+
+Examples from the research:
+- "I help independent real estate agencies that are drowning in repetitive admin use AI to handle their listing workflows — without hiring more staff."
+- "I help e-commerce brands struggling to produce enough content use AI to build a content engine — without losing their brand voice."
+- "I help solo HR consultants use AI to automate their client reporting — without learning any code."
+
+Write 3 versions. The one that feels slightly scary because it's so specific is usually the right one.
+
+**The Beachhead Rule:**
+Start with the smallest, most specific version of your niche. Dominate that first. Expand later. "AI for small businesses" is not a niche. "AI operations tools for solo HR consultants in the US" is.
+
+---
+
+## 3. Define Your Ideal Client Profile (ICP)
+
+### Framework: The ICP Template
+
+Fill this out based on real conversations — not assumptions. Update it after every sales call.
+
+```
+ICP VERSION: 1  (update the number each time you revise)
+Last updated: ___
+
+WHO THEY ARE
+Industry: ___
+Business size: ___ employees / $___ annual revenue
+Business stage: (startup / growing / established / scaling)
+Geography: ___
+Title of the person who buys: ___
+Title of the person who uses what you build: ___
+
+THEIR SITUATION
+They are experiencing: ___
+This is costing them approximately: $___ per [month/year]
+Their current solution is: ___
+What frustrates them about that: ___
+
+WHAT THEY WANT
+The outcome they're looking for: ___
+How they'll know it's working: ___
+What success looks like in 90 days: ___
+
+HOW THEY BUY
+Who approves the budget: ___
+Typical decision timeline: ___
+What they need to see before buying: ___
+Their biggest objection: ___
+
+RED FLAGS (who is NOT your ideal client)
+- Budget under $2,000 (research shows this is almost never enough for real AI work)
+- No budget owner who can say yes within 30 days
+- Wants AI but hasn't defined the problem it should solve
+```
+
+**ICP Validation Rule:** After 10 sales conversations, your ICP should predict with 80% accuracy whether someone will buy. If it doesn't, keep refining.
+
+---
+
+## 4. Set Up Your Business Structure
+
+### Framework: The Business Setup Checklist
+
+Do these in order. Each one unlocks the next.
+
+**Week 1 — The Essentials (do these before your first client call)**
+- [ ] Decide: LLC or sole proprietor (LLC recommended for AI consulting — enterprise clients often require it)
+- [ ] If LLC: file with your state via legalzoom.com or your state's business portal ($100–$500)
+- [ ] Get your EIN: IRS.gov → "Apply for an EIN Online" → free, takes 10 minutes
+- [ ] Open a dedicated business checking account (bring your EIN + LLC docs)
+- [ ] Set up a business email (yourname@yourbusiness.com via Google Workspace ~$6/mo)
+
+**Week 2 — The Basics**
+- [ ] Set up Wave (free invoicing — start here before paying for anything)
+- [ ] Create a client folder system in Google Drive or Notion
+- [ ] Open a separate savings account for taxes — move 25–30% of every payment here immediately
+- [ ] Find a simple service agreement template (covered in Item 8)
+
+**Week 3 — The Nice-to-Haves**
+- [ ] Set up a Calendly scheduling link (free tier)
+- [ ] Create a simple LinkedIn profile that explains your offer in plain language
+- [ ] Find a CPA or bookkeeper who works with freelancers/consultants
+
+**The One Non-Negotiable:**
+Separate business and personal money from day one. This single habit saves enormous pain at tax time and is required to prove your LLC is legitimate if it's ever challenged.
+
+---
+
+## 5. Price Your Services
+
+### Framework: The Pricing Ladder
+
+Build your pricing in tiers so every client has a natural entry point and a next step. Based on 2025–2026 market rates from the research:
+
+```
+TIER 1 — THE ENTRY OFFER (easiest yes, ~$1,500–$2,500)
+What it is: A fixed-scope AI audit or diagnostic
+What they get: Assessment of their current state + a prioritized roadmap
+Time to deliver: 3–5 business days
+Why it works: Low risk for them, builds your case study, leads naturally to Tier 2
+
+TIER 2 — THE CORE OFFER (your main service, ~$10K–$40K)
+What it is: Implementation of the highest-priority item from the Tier 1 audit
+What they get: A working solution, documentation, and handoff
+Time to deliver: 4–8 weeks
+Why it works: They've already experienced your thinking; this is the logical next step
+
+TIER 3 — ONGOING RETAINER (~$2K–$5K/month for 5–10 hrs)
+What it is: Monthly support, maintenance, and advisory
+What they get: You on call for questions, updates, and iteration
+Why it works: Predictable income for you; ongoing value and peace of mind for them
+```
+
+**The Value-Based Pricing Formula:**
+1. Ask: "What does this problem cost you per year?" (time × hourly cost + missed revenue)
+2. Estimate the value of solving it: cost savings + revenue gained per year
+3. Charge 10–20% of that annual value for the project
+
+> Example: Client wastes 15 hours/week on manual reporting at a $100K salary = ~$38K/year in labor. Your solution eliminates it → charge $7,500–$15,000 for the project.
+
+**The Pricing Gut Check:**
+Say your price out loud. If you feel the urge to apologize or immediately offer a discount, you've probably landed on the right number. Raise it from there.
+
+---
+
+## 6. Get Your First Clients
+
+### Framework: The Warm-to-Cold Progression
+
+Don't skip stages. Go in order.
+
+**Stage 1: Your Existing Network (Week 1–2)**
+
+Make a list of 50 people you already know. For each, ask: Do they need what I offer? Do they know someone who does?
+
+Outreach script:
+> "Hey [Name] — I'm launching [what you do] for [who you serve]. I'm looking for my first few clients and thought of you. Are you dealing with [problem] in your work? Or do you know someone who is? Happy to jump on a 20-minute call — no pitch, just a conversation."
+
+**Stage 2: LinkedIn (Week 2–4)**
+
+1. Search using your ICP criteria
+2. Connect with a note mentioning something specific about their work (not a pitch)
+3. After they accept: send a value-first message — share something useful, ask a question
+4. After 2–3 exchanges: ask if they'd like to talk
+
+**Stage 3: Community Presence (Ongoing from Day 1)**
+
+Show up where your ideal clients already are — LinkedIn, industry Slack groups, association forums. Share observations, answer questions, be genuinely useful. Don't pitch. Curiosity creates inbound.
+
+**Stage 4: Cold Email (Month 2+, only after you have 1–2 clients)**
+
+Requires: dedicated sending domain, tested subject lines, 100+ sends/week, single clear CTA (a 20-minute call — not "let me know if you're interested").
+
+**First Client Checklist:**
+- [ ] List of 50 warm contacts made
+- [ ] 10 outreach messages sent this week
+- [ ] 3 conversations scheduled
+- [ ] Tier 1 offer ready to describe in one sentence
+- [ ] Calendly link ready to share
+
+---
+
+## 7. Build Your Delivery System
+
+### Framework: The Client Project Lifecycle
+
+Build these templates once. Use them for every client.
+
+**Phase 1 — Before Work Starts**
+- [ ] Discovery call completed
+- [ ] Scope of Work written and signed (template below)
+- [ ] 50% deposit invoiced and received
+- [ ] Client added to project management tool (ClickUp or Notion)
+- [ ] Onboarding doc sent: what you need from them, timeline, how to reach you
+
+**Phase 2 — During the Work**
+- [ ] Weekly 3-sentence status update sent (what happened / what's next / any blockers)
+- [ ] Any scope changes documented and approved *before* doing the work
+- [ ] Milestone 1 delivered and approved
+- [ ] Milestone 2 delivered and approved
+
+**Phase 3 — Delivery and Close**
+- [ ] Final deliverable sent
+- [ ] Debrief call scheduled
+- [ ] Testimonial/case study request made at peak satisfaction (during the debrief, not after)
+- [ ] Remaining invoice sent
+- [ ] Next engagement planted (see Item 13)
+
+**Scope of Work Template:**
+
+```
+PROJECT: ___
+CLIENT: ___
+DATE: ___
+
+WHAT THIS PROJECT INCLUDES:
+- ___
+- ___
+- ___
+
+WHAT THIS PROJECT DOES NOT INCLUDE:
+- ___
+- ___
+
+WHAT "DONE" LOOKS LIKE:
+___
+
+TIMELINE:
+Start date: ___
+Milestone 1: ___ by ___
+Milestone 2: ___ by ___
+Final delivery: ___
+
+INVESTMENT:
+Total: $___
+Deposit due to start: $___
+Final payment due on delivery: $___
+
+CHANGE REQUESTS:
+Any work outside this scope will be quoted separately and approved before being started.
+
+SIGNED:
+Client: _______________ Date: ___
+[Your name]: _______________ Date: ___
+```
+
+---
+
+## 8. Handle the Legal and Money Basics
+
+### Framework: The Money & Legal Starter Kit
+
+**The 5 Documents You Need (in priority order):**
+
+1. **Service Agreement** — master contract covering the relationship (IP ownership, confidentiality, payment terms, termination)
+2. **Statement of Work** — attached per project, covers scope (see Item 7)
+3. **Invoice template** — professional, includes payment terms and late fee language
+4. **W-9** — required by US clients who pay you $600+ in a year; fill it out once and reuse
+5. **Change Request Form** — one-page doc for any work outside original scope
+
+**Invoice Template Structure:**
+
+```
+[Your Business Name]
+[Address] | [Email] | [Phone]
+EIN: ___
+
+INVOICE #___
+Date: ___
+Due Date: ___ (Net 15 recommended for project work)
+
+Bill To:
+[Client Name / Company]
+[Address]
+
+SERVICES:
+[Description].........................................$___
+
+TOTAL DUE: $___
+
+Payment: [Zelle / ACH / check / Stripe link]
+Late payment: Invoices unpaid after the due date are subject to a 1.5% monthly fee.
+```
+
+**Tax Rhythm (set this up before your first payment arrives):**
+- Every payment received → move 25–30% to a dedicated tax savings account immediately
+- Quarterly estimated taxes due: April 15, June 15, September 15, January 15
+- Track every business expense: software, home office, equipment, courses, travel
+
+**Overdue Invoice Scripts:**
+
+Day 1 after due date:
+> "Hi [Name] — quick note that invoice #___ for $___ was due yesterday. Let me know if you need anything from me to process it."
+
+Day 7:
+> "Following up on invoice #___. Happy to resend or assist with any vendor paperwork you need."
+
+Day 14:
+> "Invoice #___ is now 14 days past due. Can you give me a status on when to expect payment?"
+
+---
+
+## 9. Set Up Your Operations Stack
+
+### Framework: The Minimum Viable Stack
+
+**Start with exactly these 4 tools. Don't add more until you have 3+ clients.**
+
+| Tool | Purpose | Cost | Start here |
+|---|---|---|---|
+| Wave | Invoicing + basic accounting | Free | wave.com |
+| Calendly | Scheduling | Free tier | calendly.com |
+| Notion or ClickUp | Project tracking + client notes | Free tier | notion.so |
+| HelloSign or DocuSign | Contract signatures | ~$15/mo | hellosign.com |
+
+**Add these at 3+ clients:**
+- HubSpot (free CRM) — track leads, follow-ups, pipeline
+- QuickBooks Online (~$30/mo) — syncs with your bank, handles taxes
+
+**The Integration That Matters Most:**
+Connect Calendly → Google Calendar → your email. A booked meeting auto-confirms and lands on your calendar. That's all you need for now.
+
+**The "Do I Need This Tool?" Test:**
+> "Does NOT having this tool cause me to lose money, miss follow-ups, or make mistakes with clients?"
+> If no → don't add it yet.
+
+---
+
+## 10. Position Yourself and Define Your Offer
+
+### Framework: The Positioning Stack
+
+Build from the bottom up. Each layer makes the next one easier.
+
+**Layer 1 — Niche + ICP** (from Items 2 and 3):
+> "I work with [niche] to solve [specific problem]."
+
+**Layer 2 — Your One Differentiator** (pick exactly one):
+- *Industry depth:* "I spent [X] years in [industry] before becoming an AI consultant — I know the problems from the inside."
+- *Process:* "I run a diagnostic before any implementation so we never build the wrong thing."
+- *Speed:* "My clients have a working solution in 2 weeks, not 6 months."
+- *Teaching:* "I don't just build it — I make sure your team can run it without me."
+- *Community:* "I've built this alongside 200+ WDAI members — this isn't theory."
+
+**Layer 3 — One-Sentence Offer:**
+> "I help [specific client] [achieve specific outcome] using [your method] — without [their biggest fear]."
+
+**Layer 4 — Tagline (for bios and social):**
+Keep it under 8 words. Examples:
+- "AI that works for your business, not instead of you"
+- "Making AI real for [niche]"
+
+**The Positioning Test:**
+Say your Layer 3 sentence to 5 people in your target market. If at least 3 say "wait, how does that work?" — you've got it. If they nod politely and change the subject — rewrite it.
+
+---
+
+## 11. Promote Yourself Consistently
+
+### Framework: The 1-to-5 Content Engine
+
+One business moment → 5 pieces of content. Do this every time something interesting happens.
+
+```
+SOURCE: A client result, a lesson learned, a question you keep getting asked
+        ↓
+1. LinkedIn post — 3–5 sentences: the insight + one takeaway
+2. LinkedIn carousel — same insight, broken into 5–7 slides
+3. Newsletter section — expand the post into 3 short paragraphs
+4. 60-second video script — same insight, talking head or screen share
+5. A reusable framework — turn the lesson into a tool others can use
+```
+
+**The "Building in Public" Post Formula (works at every stage):**
+> "Here's something I discovered this week working on [type of problem]:"
+> [2–3 sentences of the real insight]
+> "What surprised me: [the non-obvious part]"
+> "What I'd do differently: [the honest lesson]"
+> "Anyone else seeing this?"
+
+**The Promotion Moment List — What to Share at Each Stage:**
+
+| Milestone | What to post |
+|---|---|
+| Niche decision | "Here's why I chose to focus on [niche] — and why it was hard to decide" |
+| First client | "I just signed my first client. Here's exactly how it happened." |
+| Something unexpected | "I expected X. Here's what actually happened." |
+| Project delivered | "Here's what we built and what changed for the client" |
+| Mistake made | "I made this mistake so you don't have to" |
+| Question you keep getting | "People keep asking me [X]. Here's my honest answer." |
+
+**The 90-Day Plan:**
+- Weeks 1–4: Show up, share what you're learning. 3–5 posts/week, zero pitching.
+- Weeks 5–8: Add client work (anonymized if needed). One framework or template per week.
+- Weeks 9–12: Introduce your offer naturally. One direct CTA post per week, rest still pure value.
+
+---
+
+## 12. Manage Client Expectations
+
+### Framework: The Kickoff Conversation
+
+Have this conversation at the START of every engagement — before any work begins.
+
+**Part 1 — Define success together:**
+> "Before we start, I want to make sure we agree on what success looks like. In 90 days, what would have to be true for you to feel great about this investment?"
+Write down exactly what they say. Put the numbers in the SOW.
+
+**Part 2 — Address the AI reality honestly:**
+> "AI is genuinely powerful, and it also has real limits. Here's what it will do well for us: [specific]. Here's what it won't do: [specific]. I'd rather be upfront now than explain surprises later."
+
+**Part 3 — Set communication expectations:**
+> "You'll hear from me every [week/two weeks] with a brief update. If something changes our timeline or scope, I'll tell you immediately — not at the end. What's your preferred way to communicate?"
+
+**Part 4 — Lock in what you need:**
+> "For this to work, I'll need access to [specific systems/data/people]. The #1 reason AI projects stall is not having clean data or the right access. Can we get that sorted in week one?"
+
+**The Success Metrics Template:**
+
+```
+PROJECT: ___
+
+We will know this is working when:
+Metric 1: [what we're measuring] moves from ___ to ___ by [date]
+Metric 2: [what we're measuring] moves from ___ to ___ by [date]
+
+Check-in points: 30 days / 60 days / 90 days
+If we're off track at 30 days, we will: [adjust X / escalate to Y]
+```
+
+---
+
+## 13. Plan to Grow
+
+### Framework: The Growth Flywheel
+
+Each client, handled well, creates the next one. Build this loop deliberately.
+
+```
+Do great work
+    ↓
+Capture it as a case study (immediately after delivery)
+    ↓
+Ask for a referral at peak happiness (not at project close — during the debrief)
+    ↓
+Turn the case study into content (LinkedIn, newsletter, framework)
+    ↓
+Plant the upsell before the project ends
+    ↓
+New client or expanded engagement
+    ↓
+Repeat
+```
+
+**Case Study Template (3 sentences minimum, specific numbers whenever possible):**
+
+```
+CLIENT: [Industry, size — anonymize if needed]
+PROBLEM: What they were struggling with before you arrived
+APPROACH: What you did — in plain language, no jargon
+RESULT: What changed — specific numbers: time saved, revenue gained, errors eliminated
+QUOTE: "[Their words]" — First name, Title
+```
+
+Example from the research pattern:
+> A 12-person HR consulting firm was spending 15 hours per week manually compiling client reports. We built an AI workflow that pulls from their existing tools and produces a draft report in under 10 minutes. They recovered those 15 hours in the first week — and called it "the best thing we've done this year."
+
+**The Referral Ask (timing matters more than the script):**
+
+Ask right after they see the first real result — not at project close.
+> "I'm so glad that's working for you. I work almost entirely through referrals — is there anyone in your network dealing with a similar challenge? I'd love an introduction."
+
+Then stop talking.
+
+**The Upsell Path — Build It Before the Project Ends:**
+
+| If you delivered this | Plant this next |
+|---|---|
+| AI audit / diagnostic | "Ready to implement the top priority from our report?" |
+| One-time workflow build | "Want us to handle maintenance and updates monthly?" |
+| Strategy engagement | "I can stay involved as you execute — want to talk about what that looks like?" |
+| Training / workshop | "A lot of teams want ongoing coaching after this. Is that something you'd want?" |
+
+Plant the seed before final delivery:
+> "We're almost done with Phase 1. A lot of clients at this stage want help with [next logical thing]. Is that something you'd want to explore once this wraps?"
+
+---
+
+## The Master Sequence — Where to Start
+
+If you're brand new, work in this order:
+
+1. **Items 2 + 3** — Niche and ICP first. Everything else flows from this.
+2. **Item 1** — Validate with 10 conversations before building anything.
+3. **Item 10** — Define your offer so you can describe it clearly.
+4. **Item 6** — Start warm outreach immediately.
+5. **Item 5** — Have your pricing ready before your first sales conversation.
+6. **Item 4** — Business structure (can run in parallel with 2–5).
+7. **Items 7 + 8** — Delivery system and legal basics before you sign your first client.
+8. **Item 9** — Minimum operations stack (just the 4 core tools).
+9. **Item 11** — Start promoting from day one, even while doing 1–8.
+10. **Items 12 + 13** — Client management and growth systems as you start working with clients.
+
+---
+
+*These frameworks are the foundation for the slash commands in Phase 2.*
+*Each item maps to the lifecycle: /discover, /position, /price, /pitch, /deliver, /operate, /grow*
