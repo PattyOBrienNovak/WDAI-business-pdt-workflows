@@ -10,6 +10,28 @@
 
 These are the 13 things that come up again and again — regardless of whether someone is starting an AI consulting practice, building automation workflows for clients, or developing AI-powered apps. Both research tracks independently identified the same 13 areas, which is a strong signal they're the right ones.
 
+**They're ordered the way a brand-new founder should work through them.** If you're building lifecycle commands, see the mapping table at the bottom.
+
+---
+
+## Becoming a Founder: Your Flow
+
+A few notes on timing and grouping as you work through the list:
+
+1. **Items 1 + 2** — Niche and initial positioning first. Everything else flows from this.
+2. **Item 3** — Validate with 10 real conversations before building anything.
+3. **Back to Item 2** — Revisit and refine your positioning based on what you heard in those conversations.
+4. **Item 4** — Start warm outreach immediately — don't wait until everything is ready.
+5. **Item 5** — Get pricing clear before your first sales conversation.
+6. **Item 6** — Business structure (can run in parallel with steps 1–5).
+7. **Items 7 + 8** — Discovery process and delivery system in place before signing your first client.
+8. **Item 9** — Legal and money basics before any money changes hands.
+9. **Item 10** — Minimum operations stack (just the 4 core tools to start).
+10. **Item 11** — Start promoting from day one, even while doing steps 1–9.
+11. **Items 12 + 13** — Build credibility and growth systems as you get into client work.
+
+---
+
 Each item includes:
 - **The core question** — the thing your member is actually trying to answer
 - **Why it's a blocker** — what goes wrong when people skip or rush it
@@ -18,33 +40,11 @@ Each item includes:
 
 ---
 
-> **Note from both research tracks:** The original lifecycle plan starts with `/discover`. The research strongly suggests adding `/validate` *before* `/discover` — idea validation is the most commonly skipped and most consequential first step. This is flagged across multiple sources and both research files independently.
+> **Note from both research tracks:** The original lifecycle plan starts with `/discover`. The research strongly suggests adding `/validate` as an early step — idea validation is the most commonly skipped and most consequential first step. This is flagged across multiple sources and both research files independently. It's reflected in item 3 below.
 
 ---
 
-## 1. Validate Before You Build
-
-**Core question:** Will anyone actually pay for this — and can you find 3 real signals *before* you build anything?
-
-**Why it's a blocker:** Most people skip this and spend weeks building something nobody wants to pay for. The signal to look for isn't "is this a good idea?" — it's "has someone already complained about this problem and tried to pay someone to fix it?"
-
-**What the research says:**
-- Apply the 3-filter test before investing time in any idea: Does the problem happen at least weekly? Does it cost the business $50K+/year? Is there a budget owner who can approve spending within 30 days?
-- Have 10 real conversations with potential clients before building anything — if at least 7 describe the same pain and signal willingness to pay, you have something real
-- "Validate with currency" — a polite "sounds great!" is not validation; someone asking for an invoice is
-- The fastest real-world test: describe the thing before it exists and see if people inquire or sign up
-
-**Named frameworks:**
-| Framework | What it is |
-|---|---|
-| **The Mom Test** (Rob Fitzpatrick) | Ask about their life and past behavior, not their opinion of your idea — gets past polite lies |
-| **Lean Startup Build-Measure-Learn** (Eric Ries) | Form hypothesis → smallest possible test → measure real signal → repeat |
-| **2-20-200 Rule** | 2 hrs desk research → 20 hrs talking to potential customers → only 200 hrs building *after* strong signals |
-| **Fake Door / Smoke Test** | Create a landing page or offer describing the thing before it exists — real inquiries = real demand |
-
----
-
-## 2. Pick a Niche (and Resist Going Wide)
+## 1. Pick a Niche (and Resist Going Wide)
 
 **Core question:** Who, specifically, are you for? What industry + what problem + what type of person?
 
@@ -67,7 +67,7 @@ Each item includes:
 
 ---
 
-## 3. Positioning & Messaging — What Do You Actually Say?
+## 2. Positioning & Messaging — What Do You Actually Say?
 
 **Core question:** What problem do you solve, in one sentence, without using the word "AI"?
 
@@ -88,7 +88,51 @@ Each item includes:
 
 ---
 
-## 4. Pricing — How Much, How Do You Charge, and for What?
+## 3. Validate Before You Build
+
+**Core question:** Will anyone actually pay for this — and can you find 3 real signals *before* you build anything?
+
+**Why it's a blocker:** Most people skip this and spend weeks building something nobody wants to pay for. The signal to look for isn't "is this a good idea?" — it's "has someone already complained about this problem and tried to pay someone to fix it?"
+
+**What the research says:**
+- Apply the 3-filter test before investing time in any idea: Does the problem happen at least weekly? Does it cost the business $50K+/year? Is there a budget owner who can approve spending within 30 days?
+- Have 10 real conversations with potential clients before building anything — if at least 7 describe the same pain and signal willingness to pay, you have something real
+- "Validate with currency" — a polite "sounds great!" is not validation; someone asking for an invoice is
+- The fastest real-world test: describe the thing before it exists and see if people inquire or sign up
+
+**Named frameworks:**
+| Framework | What it is |
+|---|---|
+| **The Mom Test** (Rob Fitzpatrick) | Ask about their life and past behavior, not their opinion of your idea — gets past polite lies |
+| **Lean Startup Build-Measure-Learn** (Eric Ries) | Form hypothesis → smallest possible test → measure real signal → repeat |
+| **2-20-200 Rule** | 2 hrs desk research → 20 hrs talking to potential customers → only 200 hrs building *after* strong signals |
+| **Fake Door / Smoke Test** | Create a landing page or offer describing the thing before it exists — real inquiries = real demand |
+
+---
+
+## 4. Find and Land Your First Client
+
+**Core question:** Who in your existing network has the problem you solve — and how do you have that conversation?
+
+**Why it's a blocker:** Most people either wait for clients to come to them (they don't) or jump straight to cold outreach (premature). Your first client almost always comes from your existing network.
+
+**What the research says:**
+- Start warm: former coworkers, managers, classmates, business contacts — tell them what you're doing and ask if they know anyone who could use your help
+- LinkedIn: search for people matching your ICP, connect with a personalized note (not a pitch), add value before asking for anything
+- Lead with a low-risk entry offer (audit or diagnostic, $1,500–$2,500) — easier "yes" for them, proof of value for you
+- Offer first engagement at a reduced rate in exchange for a testimonial and the right to use them as a case study
+- Warm referrals convert at dramatically higher rates than any other channel
+
+**Named frameworks:**
+| Framework | What it is |
+|---|---|
+| **The Referral Map** | Write 15–20 names from memory → assign comfort level → warm them up → ask for intros |
+| **Hormozi First 5 Clients** (Alex Hormozi) | Export contacts → pick platform you have most → send personalized messages → ask for referrals → make an easy offer |
+| **Show, Don't Tell Demo** | Build something small applied to their business and show it — turns a pitch into proof |
+
+---
+
+## 5. Pricing — How Much, How Do You Charge, and for What?
 
 **Core question:** What model fits your service, and how do you set a price that doesn't make you cringe?
 
@@ -112,7 +156,7 @@ Each item includes:
 
 ---
 
-## 5. Set Up Your Business Structure
+## 6. Set Up Your Business Structure
 
 **Core question:** Sole proprietor or LLC — and what do you actually need to do to register?
 
@@ -132,7 +176,49 @@ Each item includes:
 
 ---
 
-## 6. Contracts & Getting Paid
+## 7. Run a Proper Discovery Process
+
+**Core question:** What questions do you ask before you send a proposal?
+
+**Why it's a blocker:** Most scope creep, undercharging, and unhappy clients trace back to a bad or missing discovery conversation. Proposals written without real discovery almost always miss the mark.
+
+**What the research says:**
+- Before any proposal, you need to understand: What's the actual problem? What does success look like in 90 days? What's already been tried? What's out of scope?
+- Ask about emotions, not just logistics — clients' fear of change and internal politics are often the real blockers
+- Co-creating the roadmap with the client (not for them) eliminates scope creep because they defined the scope themselves
+- The 5 core scoping questions answer everything you need to write any proposal
+
+**Named frameworks:**
+| Framework | What it is |
+|---|---|
+| **CLEAR Discovery** | Capture goal → Learn current approach → Examine emotions → Acknowledge → Reveal additional context |
+| **5 Core Scoping Questions** | What problem are you solving? What does success look like? What's your deadline? What have you tried? What's out of scope? |
+| **Co-Created Roadmap** | Build the project plan *with* the client during kickoff, not for them afterward |
+
+---
+
+## 8. Build Your Delivery System
+
+**Core question:** What's your repeatable process from "yes, I'll work with you" to "here's your final deliverable"?
+
+**Why it's a blocker:** Over 50% of AI consulting projects fail due to scope creep and unclear priorities (McKinsey 2025). The biggest time drain for new AI business owners is recreating the same process for every client. Templates built once save hours every engagement.
+
+**What the research says:**
+- Create a client onboarding checklist, a SOW template, and a status update format before you need them
+- Define scope in writing before any work starts — what's included, what's not, what done looks like
+- Add a change request clause to every contract so scope creep has a process instead of a fight
+- Weekly 3-sentence status updates (what happened / what's next / any blockers) are standard — clients who feel informed don't panic
+
+**Named frameworks:**
+| Framework | What it is |
+|---|---|
+| **Client Journey Map** | Pre-onboarding → Kickoff → Milestone check-ins → Final delivery → Offboarding/handoff |
+| **Template Library** | Reusable docs for proposals, SOWs, status updates, final delivery, and offboarding |
+| **Productized Delivery Playbook** | Step-by-step internal doc for how you deliver your signature service — foundation for delegation |
+
+---
+
+## 9. Contracts & Getting Paid
 
 **Core question:** How do you get paid reliably, without a lawyer on retainer?
 
@@ -154,93 +240,7 @@ Each item includes:
 
 ---
 
-## 7. Build Credibility Before You Have Clients
-
-**Core question:** How do you build social proof when you're starting from zero?
-
-**Why it's a blocker:** The chicken-and-egg problem — you need case studies to get clients, but you need clients to get case studies. This stops people before they start.
-
-**What the research says:**
-- Offer 1–2 free or reduced-price engagements specifically in exchange for a detailed testimonial and permission to write a case study
-- Building in public (sharing your process, not just outcomes) builds trust faster than polished case studies
-- A workshop, webinar, or live demo of your service creates credibility before you have paying clients
-- The "show don't tell" demo — build something small applied to *their* business and show it — converts dramatically better than describing what you do
-
-**Named frameworks:**
-| Framework | What it is |
-|---|---|
-| **The Free Work Ladder** | 1–2 free/discounted engagements → in exchange for a testimonial + case study rights |
-| **Content Credibility Stack** | Certifications + testimonials + a workshop + documented results, stacked over time |
-| **Build in Public** | Share the process of building your business — what you're learning, what's working, what isn't |
-| **Show, Don't Tell Demo** | Build a small demo of your service applied to *their* business and show it before pitching |
-
----
-
-## 8. Find and Land Your First Client
-
-**Core question:** Who in your existing network has the problem you solve — and how do you have that conversation?
-
-**Why it's a blocker:** Most people either wait for clients to come to them (they don't) or jump straight to cold outreach (premature). Your first client almost always comes from your existing network.
-
-**What the research says:**
-- Start warm: former coworkers, managers, classmates, business contacts — tell them what you're doing and ask if they know anyone who could use your help
-- LinkedIn: search for people matching your ICP, connect with a personalized note (not a pitch), add value before asking for anything
-- Lead with a low-risk entry offer (audit or diagnostic, $1,500–$2,500) — easier "yes" for them, proof of value for you
-- Offer first engagement at a reduced rate in exchange for a testimonial and the right to use them as a case study
-- Warm referrals convert at dramatically higher rates than any other channel
-
-**Named frameworks:**
-| Framework | What it is |
-|---|---|
-| **The Referral Map** | Write 15–20 names from memory → assign comfort level → warm them up → ask for intros |
-| **Hormozi First 5 Clients** (Alex Hormozi) | Export contacts → pick platform you have most → send personalized messages → ask for referrals → make an easy offer |
-| **Show, Don't Tell Demo** | Build something small applied to their business and show it — turns a pitch into proof |
-
----
-
-## 9. Run a Proper Discovery Process
-
-**Core question:** What questions do you ask before you send a proposal?
-
-**Why it's a blocker:** Most scope creep, undercharging, and unhappy clients trace back to a bad or missing discovery conversation. Proposals written without real discovery almost always miss the mark.
-
-**What the research says:**
-- Before any proposal, you need to understand: What's the actual problem? What does success look like in 90 days? What's already been tried? What's out of scope?
-- Ask about emotions, not just logistics — clients' fear of change and internal politics are often the real blockers
-- Co-creating the roadmap with the client (not for them) eliminates scope creep because they defined the scope themselves
-- The 5 core scoping questions answer everything you need to write any proposal
-
-**Named frameworks:**
-| Framework | What it is |
-|---|---|
-| **CLEAR Discovery** | Capture goal → Learn current approach → Examine emotions → Acknowledge → Reveal additional context |
-| **5 Core Scoping Questions** | What problem are you solving? What does success look like? What's your deadline? What have you tried? What's out of scope? |
-| **Co-Created Roadmap** | Build the project plan *with* the client during kickoff, not for them afterward |
-
----
-
-## 10. Build Your Delivery System
-
-**Core question:** What's your repeatable process from "yes, I'll work with you" to "here's your final deliverable"?
-
-**Why it's a blocker:** Over 50% of AI consulting projects fail due to scope creep and unclear priorities (McKinsey 2025). The biggest time drain for new AI business owners is recreating the same process for every client. Templates built once save hours every engagement.
-
-**What the research says:**
-- Create a client onboarding checklist, a SOW template, and a status update format before you need them
-- Define scope in writing before any work starts — what's included, what's not, what done looks like
-- Add a change request clause to every contract so scope creep has a process instead of a fight
-- Weekly 3-sentence status updates (what happened / what's next / any blockers) are standard — clients who feel informed don't panic
-
-**Named frameworks:**
-| Framework | What it is |
-|---|---|
-| **Client Journey Map** | Pre-onboarding → Kickoff → Milestone check-ins → Final delivery → Offboarding/handoff |
-| **Template Library** | Reusable docs for proposals, SOWs, status updates, final delivery, and offboarding |
-| **Productized Delivery Playbook** | Step-by-step internal doc for how you deliver your signature service — foundation for delegation |
-
----
-
-## 11. Set Up Your Operations Stack
+## 10. Set Up Your Operations Stack
 
 **Core question:** What's the minimum toolset to run your business professionally?
 
@@ -270,7 +270,7 @@ Each item includes:
 
 ---
 
-## 12. Promote Yourself Consistently (Not Occasionally)
+## 11. Promote Yourself Consistently (Not Occasionally)
 
 **Core question:** How do you talk about your work without feeling like you're bragging?
 
@@ -290,6 +290,28 @@ Each item includes:
 | **1-to-5 Repurposing** | One piece of real work → LinkedIn post → carousel → newsletter section → 60-sec video → reusable framework |
 | **StoryBrand for Social** | Every post: here's a problem your audience has → here's what I learned → here's what you can do |
 | **$1.80 Strategy** (Gary Vee) | Comment meaningfully on 9 posts/day in your niche, leaving your genuine "2 cents" — builds visibility before you ask for anything |
+
+---
+
+## 12. Build Credibility Before You Have Clients
+
+**Core question:** How do you build social proof when you're starting from zero?
+
+**Why it's a blocker:** The chicken-and-egg problem — you need case studies to get clients, but you need clients to get case studies. This stops people before they start.
+
+**What the research says:**
+- Offer 1–2 free or reduced-price engagements specifically in exchange for a detailed testimonial and permission to write a case study
+- Building in public (sharing your process, not just outcomes) builds trust faster than polished case studies
+- A workshop, webinar, or live demo of your service creates credibility before you have paying clients
+- The "show don't tell" demo — build something small applied to *their* business and show it — converts dramatically better than describing what you do
+
+**Named frameworks:**
+| Framework | What it is |
+|---|---|
+| **The Free Work Ladder** | 1–2 free/discounted engagements → in exchange for a testimonial + case study rights |
+| **Content Credibility Stack** | Certifications + testimonials + a workshop + documented results, stacked over time |
+| **Build in Public** | Share the process of building your business — what you're learning, what's working, what isn't |
+| **Show, Don't Tell Demo** | Build a small demo of your service applied to *their* business and show it before pitching |
 
 ---
 
@@ -316,21 +338,21 @@ Each item includes:
 
 ## How the 13 Things Map to the Lifecycle Commands
 
-| Research Finding | Lifecycle Command |
-|---|---|
-| Idea validation | `/validate` ← **recommended addition** (pre-step, currently missing) |
-| Niche + ICP | `/discover` |
-| Positioning & messaging | `/position` |
-| Pricing models | `/price` |
-| Legal + business structure | `/operate` |
-| Contracts + getting paid | `/operate` |
-| Building credibility | `/pitch` + `/grow` |
-| Finding first clients | `/pitch` |
-| Discovery process | `/deliver` |
-| Delivery systems | `/deliver` |
-| Operations stack | `/operate` |
-| Promotion | `/promote` (woven into every command) |
-| Referrals + repeat business | `/grow` |
+| # | Research Finding | Lifecycle Command |
+|---|---|---|
+| 1 | Niche + ICP | `/discover` |
+| 2 | Positioning & messaging | `/position` |
+| 3 | Idea validation | `/validate` ← **recommended addition** (pre-step, currently missing) |
+| 4 | Finding first clients | `/pitch` |
+| 5 | Pricing models | `/price` |
+| 6 | Legal + business structure | `/operate` |
+| 7 | Discovery process | `/deliver` |
+| 8 | Delivery systems | `/deliver` |
+| 9 | Contracts + getting paid | `/operate` |
+| 10 | Operations stack | `/operate` |
+| 11 | Promotion | `/promote` (woven into every command) |
+| 12 | Building credibility | `/pitch` + `/grow` |
+| 13 | Referrals + repeat business | `/grow` |
 
 ---
 
@@ -352,24 +374,6 @@ Each item includes:
 - Validation is even more important here — the build cost is much higher
 - A non-technical founder needs a technical co-founder or contractor before anything else
 - MVP scoping discipline is critical — most app projects fail from over-scoping
-
----
-
-## The Master Sequence — Where to Start
-
-If you're brand new, work in this order:
-
-1. **Items 2 + 3** — Niche and ICP first. Everything else flows from this.
-2. **Item 1** — Validate with 10 real conversations before building anything.
-3. **Item 3** — Define your positioning so you can describe your offer clearly.
-4. **Item 8** — Start warm outreach immediately — don't wait until everything is ready.
-5. **Item 4** — Pricing ready before your first sales conversation.
-6. **Item 5** — Business structure (can run in parallel with 1–4).
-7. **Items 9 + 10** — Discovery process and delivery system before signing your first client.
-8. **Item 6** — Legal and money basics before any money changes hands.
-9. **Item 11** — Minimum operations stack (just the 4 core tools to start).
-10. **Item 12** — Start promoting from day one, even while doing 1–9.
-11. **Items 7 + 13** — Building credibility and growth systems as you get into client work.
 
 ---
 
