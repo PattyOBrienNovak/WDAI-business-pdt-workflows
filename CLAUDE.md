@@ -57,3 +57,4 @@ everything we build. Read it before working on any command. It contains:
 - Commands live in `.claude/commands/`
 - Keep file names lowercase with hyphens
 - Patty and Anennya may work in parallel — pull before pushing
+- After building or updating any command, always ask: "Would you like me to add what this command does to the README?"
