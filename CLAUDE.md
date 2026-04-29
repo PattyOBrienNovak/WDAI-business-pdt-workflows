@@ -58,3 +58,20 @@ everything we build. Read it before working on any command. It contains:
 - Keep file names lowercase with hyphens
 - Patty and Anennya may work in parallel — pull before pushing
 - After building or updating any command, always ask: "Would you like me to add what this command does to the README?"
+
+## Standard Pattern for Every Command
+
+Every command must include the following at the end, after the artifact and before the closing prompts:
+
+**Save prompt** — Ask the member if they'd like to save their artifact:
+> **Want to save this?** I can save your artifact as a file so you have it outside this chat. Just tell me:
+> - **Local file** — I'll save it to your computer as a markdown file you can open anytime
+> - **GitHub repo** — I'll save it to a repo of your choice (great if you want it backed up or shareable)
+> - **Both** — why not
+>
+> Or just copy and paste it from above — that works too.
+
+**Code curiosity prompt** — Always end with:
+> *Would you like to see the code behind this command, or a plain-English explanation of how it works?*
+
+**Share moment** — Every command should include a "Now share it" nudge that gives the member a specific, low-friction action to take today.
