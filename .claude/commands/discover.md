@@ -97,6 +97,14 @@ After the artifact, add:
 > **Your next step is /validate** — 10 real conversations to find out if people will pay for this before you build anything.
 
 > ---
+> **Want to save this?** I can save your artifact as a file so you have it outside this chat. Just tell me:
+> - **Local file** — I'll save it to your computer as a markdown file you can open anytime
+> - **GitHub repo** — I'll save it to a repo of your choice (great if you want it backed up or shareable)
+> - **Both** — why not
+>
+> Or just copy and paste it from above — that works too.
+
+> ---
 > *Would you like to see the code behind this command, or a plain-English explanation of how it works?*
 
 ---
