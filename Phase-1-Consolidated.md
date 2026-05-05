@@ -354,6 +354,11 @@ Each item includes:
 | 12 | Building credibility | `/pitch` + `/grow` |
 | 13 | Referrals + repeat business | `/grow` |
 
+**Note for the apps track:** `/pitch`, `/deliver`, and `/operate` need product-specific variants — the consulting versions don't map cleanly.
+- `/pitch` → artifact is a landing page or demo, not a client proposal
+- `/deliver` → becomes MVP scoping + beta program, not project delivery
+- `/operate` → becomes customer success infrastructure, not individual client onboarding
+
 ---
 
 ## Track-Specific Research Notes
@@ -374,6 +379,8 @@ Each item includes:
 - Validation is even more important here — the build cost is much higher
 - A non-technical founder needs a technical co-founder or contractor before anything else
 - MVP scoping discipline is critical — most app projects fail from over-scoping
+- The co-founder / contractor question must be answered *before* discovery — a non-technical founder who validates an idea and finds a niche still can't move forward without knowing whether they can build it alone or need a technical partner. This is a blocker that surfaces earlier than on any other track.
+- Product-market fit is not a milestone — it's a loop. Ship something small → get it in front of real users → measure retention and return behavior → learn → ship again. The signal you're looking for: users come back without being prompted, and would be "very disappointed" if the product went away (Sean Ellis / Superhuman test). Expect to run 3–5 loops before the product clicks.
 
 ---
 
