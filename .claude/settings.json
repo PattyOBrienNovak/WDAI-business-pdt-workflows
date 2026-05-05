@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"SessionStart\",\"additionalContext\":\"SESSION START: Ask the user whether it has been more than a day since they last worked on this project. If yes, suggest running git pull to sync with GitHub before starting any work, and offer to run it for them.\"}}'",
+            "statusMessage": "Loading project reminders..."
+          }
+        ]
+      }
+    ]
+  }
+}
