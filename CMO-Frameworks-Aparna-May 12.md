@@ -192,13 +192,45 @@ The CMO inherits *from* and feeds *into* the rest of the team:
 
 ---
 
-## A Note on GTM (Go-to-Market)
+## Connections — The `/launch` Convergence Command
 
 GTM frameworks (Bullseye, AARRR, Crossing the Chasm) **do not** live inside the CMO role. GTM is a cross-functional convergence point — it requires CEO (segment choice), CMO (positioning + message), CRO (pricing + sales motion), and CPO (product readiness) to all sync before launch.
 
-The May 5 brainstorm already identified "Go-to-market" as one of the four convergence points. The recommendation is to build a **top-level `/launch` convergence command** that orchestrates inputs from each role and outputs a GTM Plan + Launch Readiness Checklist. It would draw from Bullseye (channel selection) and AARRR (metrics) as its core GTM frameworks.
+The May 5 brainstorm already identified "Go-to-market" as one of the four convergence points. The recommendation is to build a **top-level `/launch` convergence command** (not nested under any single role) that orchestrates inputs from each C-suite workflow and outputs a GTM Plan + Launch Readiness Checklist.
 
-This boundary keeps CMO scoped to what the CMO actually controls and prevents GTM decisions from being made in a marketing silo.
+### What CMO hands off to `/launch`
+
+When the founder runs `/launch`, the convergence command pulls these CMO artifacts as inputs:
+
+| CMO command output | What `/launch` uses it for |
+|---|---|
+| `/cmo-positioning` → Positioning Statement | Defines the segment the launch targets + the competitive frame |
+| `/cmo-messaging` → BrandScript | Source for landing page copy, launch announcement, sales scripts |
+| `/cmo-brandidentity` → Brand Identity Brief | Visual + verbal consistency across all launch assets |
+| `/cmo-credibility` → Credibility Stack | Determines what social proof is launch-ready vs. still needed |
+| `/cmo-audience` → Permission Asset | The launch's announcement list (the people you've already earned permission to reach) |
+| `/cmo-content` → 90-Day Plan | Becomes the launch content runway (pre-launch teases, launch-day push, post-launch reinforcement) |
+
+### What `/launch` adds on top
+
+`/launch` is *not* CMO work re-skinned — it answers cross-functional GTM-specific questions the CMO can't answer alone:
+
+- **Which channels do we test first?** → Bullseye Framework (Weinberg & Mares, *Traction*, 2014) — 19 traction channels narrowed to 3 cheap tests in the inner ring
+- **What does "launched" look like?** → AARRR / Pirate Metrics (Dave McClure) — Acquisition, Activation, Retention, Referral, Revenue success criteria
+- **Are we ready to launch?** → Launch Readiness Checklist drawing from CRO (pricing locked), CPO (product shippable), COO (ops infra in place), CMO (assets ready)
+- **Crossing the Chasm** (Geoffrey Moore) — only enters when the founder is moving from first-segment dominance to a second segment
+
+### Why this boundary matters
+
+Keeping GTM out of the CMO workflow does three things:
+
+1. **Prevents the marketing silo.** The most common launch failure is great CMO work pointed at the wrong segment with the wrong price. Forcing convergence catches this.
+2. **Keeps CMO sub-commands focused.** Each CMO command stays scoped to what the CMO actually controls. Beginners don't get overwhelmed by mixing brand work with pricing and product decisions.
+3. **Matches Anennya's iterative model.** The May 5 brainstorm explicitly treated convergence as its own thing — `/launch` is the formal expression of that.
+
+### Status
+
+`/launch` will be fully spec'd **after** all 7 C-suite frameworks docs (CEO, CMO, CRO, COO, CPO, CTO, CDO) are complete. We need each role's outputs defined before we can wire them into the convergence command.
 
 ---
 
