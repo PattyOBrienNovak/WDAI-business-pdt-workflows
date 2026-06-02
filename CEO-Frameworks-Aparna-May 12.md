@@ -6,9 +6,28 @@
 
 ---
 
-## What the CEO Owns
+## How a CEO Operates — Explained to a Beginner Founder
 
-The CEO sets the founding bet — who you serve, where you'll play, how you'll win, and what success looks like. For an early-stage AI business, this is the highest-leverage role. Get it wrong and every other workflow (CMO, CRO, COO, CPO, CTO, CDO) runs in the wrong direction.
+**The one-line version:** The CEO decides *what game you're playing and how you intend to win it.* Every other role executes against that decision. If the CEO picks the wrong game, everyone else runs hard in the wrong direction.
+
+### The four things every CEO really does
+
+Strip away the corporate language and every CEO — from a Fortune 500 to a solo consultant — does four things:
+
+1. **Picks the bet.** Decides who you serve, what problem you solve, and where you'll focus. Saying yes to one thing means saying no to a hundred others — and that's the job.
+2. **Defines what "winning" looks like.** Not vague ("be successful") but concrete ("3 retainer clients in my niche by Q4"). Without this, you can't tell progress from motion.
+3. **Guards the assumptions.** Every business rests on beliefs about the market, the customer, and what you're good at. The CEO writes those down and keeps checking whether they're still true — because in AI, they go stale fast.
+4. **Decides when to persevere vs. pivot.** When reality disagrees with the plan, the CEO is the one who calls it: keep going, or change course.
+
+### The mindset shift that defines the role
+
+The hardest thing for a new founder to internalize is that **strategy is choice, not ambition.** Roger Martin — the strategist behind this role's backbone framework — puts it bluntly: most people confuse strategy with a list of goals. Real strategy is making *specific, uncomfortable choices* about where you will and won't compete.
+
+For WDAI members, the trap is "I help businesses use AI." That's not a strategy — it's the absence of one. The CEO's job is to narrow it down to something so specific it feels almost too small ("I help solo HR consultants automate client reporting") — because that specificity is what makes everything downstream (marketing, pricing, delivery) suddenly easy.
+
+### Why the CEO is the highest-leverage role
+
+It's the only role whose decisions compound into every other role. The CMO can't position what the CEO hasn't focused. The CRO can't price a vague offer. Get the CEO bet right and the rest of the business gets easier. Get it wrong and no amount of great marketing or delivery can save it. That's why, in the iterative trigger model, the CEO workflow runs *first* for any new company.
 
 ---
 

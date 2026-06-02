@@ -6,9 +6,28 @@
 
 ---
 
-## What the CMO Owns
+## How a CMO Operates — Explained to a Beginner Founder
 
-The CMO translates the CEO's strategic bets into language clients understand, gets remembered in a noisy market, and builds the credibility ladder that turns strangers into believers. For an AI business in 2026, the CMO's hardest job is being recognized as different when 67% of software websites mention AI.
+**The one-line version:** The CMO makes sure the *right people understand, remember, and trust* what you do — before they ever talk to you about buying. If the CEO picks the game, the CMO makes sure the audience knows you're playing it.
+
+### The four things every CMO really does
+
+Strip away the corporate language and every CMO — from a Fortune 500 to a solo consultant — does four things:
+
+1. **Makes you understood.** Turns "I do AI stuff" into a sentence a stranger instantly gets. This is positioning + messaging — being clear, not clever.
+2. **Makes you memorable.** Builds the consistent look, voice, and signals that make people recognize you across a noisy feed. People buy from who they remember, not who they love.
+3. **Makes you trusted.** Stacks up the proof — testimonials, published thinking, visible expertise — that lets a stranger believe you before they've worked with you.
+4. **Builds the audience.** Grows a pool of people who've said "yes, I want to hear from you," then shows up for them consistently so you're top-of-mind when their pain hits.
+
+### The mindset shift that defines the role
+
+The biggest reframe for this audience comes from StoryBrand: **you are not the hero of your marketing — your client is.** WDAI members come from accomplished backgrounds and instinctively lead with their own credentials ("20 years in HR, now doing AI"). That's backwards. The client is the hero with a problem; you are the guide who helps them win.
+
+The second reframe, from Byron Sharp's research: **getting remembered beats getting loved.** You don't need a passionate fan base. You need to be the first name that comes to mind when your specific buyer feels their specific pain. That's a much more achievable — and more honest — goal for a solo founder.
+
+### Why the CMO is the "nobody-buys-what-they-don't-understand" role
+
+Here's the trap: WDAI members do genuinely great work and then tell nobody, or describe it so technically that buyers tune out. Phase 1 research calls promotion "the #1 behavioral gap." The CMO role exists to close it — not with louder shouting, but with clearer messaging, consistent presence, and earned trust. In a market where 67% of software sites all say "AI," being *understood* is the real competitive edge.
 
 ---
 

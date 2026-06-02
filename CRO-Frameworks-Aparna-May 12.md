@@ -6,11 +6,28 @@
 
 ---
 
-## What the CRO Owns
+## How a CRO Operates — Explained to a Beginner Founder
 
-The CRO turns the CMO's positioning and audience into revenue. Owns pricing, the sales conversation, closing the deal, and turning every client into the next two. For a solo AI founder, the CRO is the *uncomfortable role* — most WDAI members under-charge, avoid the close, and forget to ask for the referral. The frameworks here are designed to make those moves systematic instead of awkward.
+**The one-line version:** The CRO turns interest into income. If the CMO gets the right people to know and trust you, the CRO is the one who actually has the conversation, makes the offer, names the price, and closes the deal — then turns that one client into the next two.
 
-The CRO was missing entirely from the original lifecycle design — "find clients" and "pricing" were split across `/pitch` and `/price` but nobody owned the revenue motion end-to-end. This doc fixes that.
+### The four things every CRO really does
+
+Strip away the corporate language and every CRO — from a Fortune 500 to a solo consultant — does four things:
+
+1. **Designs the offer.** Decides exactly what you sell — turning "AI consulting" into a concrete, named, fixed-price package a buyer can say yes to without anxiety.
+2. **Sets the price.** Figures out what to charge based on the *value to the client*, not the hours you put in — and learns to say the number out loud without flinching.
+3. **Has the sales conversation.** Reaches the right people, listens to their real problem, and structures a pitch that helps them see why solving it (with you) is worth it.
+4. **Grows the revenue.** Turns each happy client into referrals, case studies, and repeat work — so you're not starting from zero every month.
+
+### The mindset shift that defines the role
+
+The hardest reframe for this audience: **selling is not convincing — it's diagnosing.** Most WDAI members dread sales because they picture pushy persuasion. The research-backed truth (SPIN Selling, 35,000 sales calls studied) is the opposite: in successful sales, *the buyer talks more than the seller.* Your job is to ask good questions and help the client articulate their own need. Done right, selling feels like consulting — which is exactly what this audience is good at.
+
+The second reframe, from value-based pricing: **charge for the outcome, not your time.** A workflow that saves a client $100K/year is worth far more than "10 hours of work." Under-charging is the most common mistake new founders make — and it signals low confidence, attracts difficult clients, and starves the business.
+
+### Why the CRO is the "uncomfortable but unavoidable" role
+
+This is the role most WDAI members instinctively avoid — they under-charge, dodge the close, and forget to ask for the referral. But a business without revenue is a hobby. The CRO frameworks exist to make the uncomfortable moves (naming a price, asking for the sale, asking for a referral) *systematic and scripted* instead of awkward and improvised. Notably, the CRO was missing entirely from the original lifecycle design — "find clients" and "pricing" were split across `/pitch` and `/price` but nobody owned the revenue motion end-to-end. This role fixes that.
 
 ---
 
