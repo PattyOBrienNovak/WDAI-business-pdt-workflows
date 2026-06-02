@@ -1,6 +1,6 @@
 # CTO Frameworks — Evergreen Best Practices
 
-**Session with Claude Code — May 12, 2026**
+**Session with Claude Code — June 2, 2026**
 *Participant: Aparna*
 *Purpose: Identify the evergreen, best-practice frameworks the CTO (Chief Technology Officer) role should draw from, sourced from established engineering thought leadership and current AI-engineering practice. Reconciles with Anennya's May 5 CTO command design (decision mode vs. build mode). Command naming follows a beginner-friendly logic.*
 
