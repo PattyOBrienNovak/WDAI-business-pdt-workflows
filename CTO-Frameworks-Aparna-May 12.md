@@ -62,6 +62,47 @@ Anennya designed 7 CTO commands in the May 5 brainstorm, including the two-mode 
 
 ---
 
+## How Mode Activation Works
+
+The two modes (Decision vs. Build) are named throughout this doc — but *how* does a command know which one to use? The answer is **detect once, persist, allow override** — never ask "which mode?" every single time, because that's friction.
+
+### Layer 1 — Set it once (the founder profile)
+
+The first time any CTO command runs, it asks one question via `AskUserQuestion`:
+
+> *"Will you be making technology decisions and handing the building to someone else (or to Claude Code), or are you writing the code yourself?"*
+> - **A.** I'm making the decisions — someone/something else builds *(Decision mode)*
+> - **B.** I'm building it myself *(Build mode)*
+
+The answer is saved to the **shared business brief** as a flag: `founder_technical: true/false`. Every CTO command then reads that flag and defaults to the right mode without asking again.
+
+### Layer 2 — Smart default
+
+Since most WDAI members are non-technical, the default is **Decision mode** when nothing is set. The role leads with decisions, not code.
+
+### Layer 3 — Override anytime (plain language)
+
+The founder can flip modes mid-conversation just by saying it:
+- *"Show me the actual code"* → Build mode for that command
+- *"Just give me the decision, skip the technical stuff"* → back to Decision mode
+
+This maps directly to the CLAUDE.md instruction already in the repo: *"Would you like to see the code behind this, or a plain-English explanation?"* — that prompt **is** the mode toggle.
+
+### What actually changes between modes
+
+The *decision* is identical in both modes — Build mode just adds an implementation layer on top. Example, `/cto-stack`:
+
+- **Decision mode:** "I recommend Supabase (database + auth), Vercel (hosting), Claude API (the AI). Here's why in plain English, ~$45/month to start, and what's easy vs. hard to change later. Your developer or Claude Code can build from this."
+- **Build mode:** Same recommendation, *plus* the `package.json` dependencies, env-var setup, database schema, API route scaffolding, and commands to run.
+
+Decision mode stops at "here's what and why." Build mode continues to "here's exactly how, with code." Even in Decision mode, the output is a clean spec that Claude Code or a developer can build from directly — so a non-technical founder is never blocked.
+
+### The `founder_technical` flag lives in the shared business brief
+
+This flag is the first of several pieces of founder state that belong in a **shared business brief** — the connective-tissue document that all C-suite commands read from and write to (the same brief the `/launch` convergence command will depend on). Storing `founder_technical` there means the mode setting follows the founder across every CTO command and every session, and is set exactly once.
+
+---
+
 ## The Recommended Evergreen Frameworks
 
 ### 1. Choose Boring Technology + Build vs. Buy ★ (How to pick the stack)
@@ -280,7 +321,8 @@ CTO provides the **technical-readiness gate** in `/launch` — the AI eval pass/
 - [ ] Validate with Patty and Anennya — especially keeping all 7 commands vs. trimming for the non-technical majority
 - [ ] Should the most jargony names be renamed for beginners? (`/cto-sprint` → `/cto-weekly`, `/cto-review` → `/cto-cleanup`, `/cto-mvp` → `/cto-buildplan`?) Kept Anennya's names for now to honor the original design.
 - [ ] Define the explicit "hand this to Claude Code to build" format — the bridge from `/cto-mvp` build plan to actual implementation
-- [ ] Decide how deep `/cto-ai` goes for a true non-technical founder vs. a build-mode founder (two output depths?)
+- [x] Mode activation mechanism decided — detect once via `founder_technical` flag in the shared business brief, default to Decision mode, override in plain language (see "How Mode Activation Works" above)
+- [ ] Confirm `/cto-ai` output depth in each mode — Decision mode (which model, do I need RAG, how good is good enough) vs. Build mode (wire up the evals + prompt versioning)
 - [ ] Move on to the final role, **CDO (Design)** — reconcile with Anennya's May 5 design (`/design-brand`, `/design-user`, `/design-flows`, `/design-system`, `/design-test`). Confirm the `/cmo-brandidentity` (strategy) vs. `/design-brand` (execution) boundary. Candidate frameworks: Double Diamond, Design Thinking (IDEO), Nielsen's usability heuristics, Jobs to Be Done for UX, atomic design.
 - [ ] After CDO: spec the top-level `/launch` convergence command (all 7 roles will be defined).
 
