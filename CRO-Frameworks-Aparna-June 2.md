@@ -1,6 +1,6 @@
 # CRO Frameworks — Evergreen Best Practices
 
-**Session with Claude Code — May 12, 2026**
+**Session with Claude Code — June 2, 2026**
 *Participant: Aparna*
 *Purpose: Identify the evergreen, best-practice frameworks the CRO (Chief Revenue Officer) role should draw from, sourced from Harvard Business Review, established sales/pricing thought leadership, and books that have stood the test of time. Command naming follows a beginner-friendly logic.*
 
