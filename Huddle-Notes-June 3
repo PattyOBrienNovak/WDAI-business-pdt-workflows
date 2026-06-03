@@ -1,0 +1,46 @@
+AI took notes for this huddle from 10:21:15 AM - 11:18:44 AM PDT. @Aparna Ramesh presented C-suite role frameworks with slash commands; team debated MVP scope and identified need for routing layer to make 40+ commands usable without overwhelming users. View huddle in channel
+
+:handshake: Attendees
+
+@Anennya, @Aparna Ramesh, and @Patty OBrien Novak
+
+:star: Summary
+
+* Framework structure and command approach
+    * @Aparna Ramesh built executive profiles (CEO, CTO, CPO, CMO, CRO, COO, CDO) with slash commands defining swim lanes for each role. [20:03]
+    * @Aparna Ramesh designed commands to be beginner-friendly, pulling from established frameworks (Harvard Business Review, Steve Jobs, etc.) and avoiding jargon. [22:35]
+    * @Patty OBrien Novak and @Anennya affirmed the role-based framework structure is sound but questioned how users navigate and connect 40+ commands without guidance. [25:07]
+* MVP scope: depth-first vs. breadth-first
+    * @Anennya framed the decision as depth-first (fully flesh out CEO/CTO) versus breadth-first (basic elements across all C-suite roles). [33:13]
+    * Claude suggested neither approach; instead, build a "spine"—a thin vertical slice tracing consulting or product tracks end-to-end with shared business brief. [1]
+    * For consulting track: /start → /ceo-strategy → /ceo-job → /cmo-positioning → /cro-draft-offer → /cro-discovery (5-6 commands covering idea to sales conversation). [1]
+    * For solopreneur product track: /start → /ceo-job → /cpo-define/scope/requirements → /cto-stack/ai/mvp (7 commands from idea to PRD and build plan). [2]
+* Routing and user experience layer
+    * @Anennya identified need for routing that stitches commands together so users invoke them via plain English, not explicit slash commands. [27:35]
+    * @Anennya proposed Claude should infer which commands to trigger based on conversational input (e.g., "I don't know the right price" → pricing command). [28:45]
+    * @Patty OBrien Novak emphasized the system must guide users on what comes next without requiring them to manually navigate 40+ commands. [36:18]
+    * @Aparna Ramesh noted shared memory file should persist context (business details, niche, pricing) across commands so each doesn't repeat itself. [30:50]
+* Target audience definition
+    * Claude identified three primary audiences: domain experts building products, structured thinkers starting businesses, and Build TogetHER members comfortable with AI tools but lacking business frameworks. [1:00:05]
+    * Tool will not serve true beginners, experienced PMs/developers (who already know frameworks), or people seeking advice rather than structured process. [1:00:05]
+    * @Anennya and @Patty OBrien Novak agreed the toolkit should target domain experts and structured thinkers needing scaffolding, not execution advice. [1:00:37]
+* Shared memory and connective tissue
+    * @Aparna Ramesh proposed shared business brief that commands read from and write to, reducing repetition and enabling downstream commands to inherit context. [30:50]
+    * @Patty OBrien Novak volunteered to explore shared memory implementation, noting prior experience with similar patterns on other projects. [1:13:39]
+    * Shared brief unlocks efficiency: once populated, remaining commands become cheaper to build since they inherit context instead of re-asking users. [1]
+* Design and visual-first thinking gap
+    * @Aparna Ramesh noted neither MVP track prioritizes design, yet many builders (including themselves) are visual-first and want to see tangible outputs early. [55:08]
+    * @Anennya acknowledged design is critical to product function but agreed it can defer to phase 2 once core business/product spine is proven. [42:52]
+    * @Patty OBrien Novak suggested future framework to audit thinking across roles (e.g., "CEO didn't consider X, CMO didn't consider Y"), though name and implementation deferred. [57:55]
+
+:white_check_mark: Action items
+
+* @Aparna Ramesh will work on 1-2 MVP commands (/start and /ceo-job) and simplify command naming for intuitiveness. [1:14:47]
+* @Patty OBrien Novak will explore shared memory implementation and design pattern for the brief. [1:13:39]
+* @Anennya will create markdown file documenting updated MVP and target audience, push to repository, and load ticket. [1:12:22]
+* Team will reconvene Tuesday, June 9 at 11 a.m. Pacific to review progress and refine approach. [1:11:43]
+
+:link: Files and media
+
+* https://github.com/PattyOBrienNovak/WDAI-business-pdt-workflows/blob/main/Audience-and-MVP-June-3.md
+
