@@ -28,6 +28,20 @@ Ends with a "Now share it" nudge and a handoff to `/validate`.
 
 ---
 
+### `/ceo-define-problem` — Define the Problem Worth Solving
+*The foundation step — based on Jobs to Be Done. Run this first.*
+
+Walks you through 4 questions — who you're solving for, the moment the problem shows up, what they do about it today, and what "solved" looks like — then synthesizes a one-page **Problem Statement**:
+
+- **The core problem** in one sentence — *"When [situation], your customer wants to [motivation], so they can [outcome]"*
+- **What "solved" looks like** across functional, emotional, and social layers
+- **Who has the problem** (your customer seed) and **what they do today** (your real competition — usually not another AI tool)
+- **A one-line niche** seed
+
+Saves to your shared business brief so later commands inherit the context. Ends with a "Now share it" nudge and a handoff to `/cpo-define` — *define the problem, then define the product that solves it.*
+
+---
+
 ## Coming Soon
 
 | Command | What it does |
