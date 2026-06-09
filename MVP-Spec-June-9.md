@@ -274,3 +274,87 @@ Build in this sequence to unblock downstream work:
 Options:
 - Keep `ceo-define-problem` — more descriptive for members
 - Use `ceo-job` — shorter, consistent with the C-suite naming convention (`cpo-define`, `cto-stack`, etc.)
+
+---
+
+## Natural Language Flow — June 9, 2026
+
+*Developed in the June 9 huddle. Describes how users experience the system and what infrastructure changes it requires.*
+
+### The brief is the state machine. CLAUDE.md is the router.
+
+Instead of users invoking commands, Claude reads the brief, figures out where they are, and surfaces the next work naturally in conversation. Users never need to know a command name.
+
+**How it works:**
+
+The brief already tracks `phase`, `current_feature`, and `shipped_versions` (see Data Contract above). For natural language routing, it also needs:
+
+```
+completed_steps: [ceo-define-problem, cpo-define]
+current_step: cpo-scope
+next_step: cpo-requirements
+```
+
+CLAUDE.md gets a routing section that instructs Claude: *"When a user opens this project, silently check BUSINESS-BRIEF.md. If it exists, greet them by name, tell them where they are, and ask if they want to continue. If it doesn't exist, start the ceo-define-problem flow immediately."*
+
+The user just opens Claude Code and says anything — "I want to work on my business," "hi," "where were we" — and Claude responds:
+
+> "Welcome back. You've defined your problem and your product. You're ready to scope your MVP — that's the step where you decide what's in v1 and explicitly what's not. Want to do that now?"
+
+They say yes. Claude runs the flow. No slash command typed.
+
+---
+
+### Three scenarios, all seamless
+
+**New user, no brief:**
+> User: "I want to build an AI tool for HR teams"
+> Claude: "Let's start by getting clear on the problem you're solving — that unlocks everything else. I'll ask you 4 questions, takes about 10 minutes." → runs ceo-define-problem flow
+
+**Returning user, mid-journey:**
+> User: "hi"
+> Claude: "You're on step 3 of 8. You've defined your problem and product — next is scoping your MVP. Ready to pick up there?"
+
+**User describes a pain, not a step:**
+> User: "I keep second-guessing what to cut from my v1"
+> Claude: "That's exactly what /cpo-scope is for — that's your current step anyway. Want to work through it now?"
+
+---
+
+### What makes this possible technically
+
+Three pieces must work together:
+
+| Piece | Role |
+|---|---|
+| **CLAUDE.md routing instructions** | Tells Claude to check the brief on session start and interpret natural language against the journey map |
+| **Brief with journey state** | `completed_steps`, `current_step`, `next_step` — Claude reads these to know where to pick up (additive to the existing `phase` field) |
+| **Commands with good descriptions** | The `description` field in each command file is how Claude matches a pain statement ("I don't know my price") to the right flow |
+
+---
+
+### The one design decision this creates
+
+Do commands stay as slash commands that Claude invokes internally — or do they become pure conversation flows?
+
+- **Keep as slash commands (pragmatic for MVP):** Claude invokes them internally via the Skill tool; users never type them, but command files stay as-is. Users who want direct access still have it.
+- **Convert to pure conversation flows (more seamless):** No slash commands at all, just CLAUDE.md instructions and conversation — harder to maintain and test.
+
+The slash command approach is the right call for MVP. Claude does the routing; the commands are an implementation detail users never see.
+
+---
+
+### What this spec needs to add to accommodate natural language flow
+
+| Section | Change needed |
+|---|---|
+| **Infrastructure table** | Add CLAUDE.md as a third infrastructure piece alongside the brief and `/start` |
+| **`/start` design** | Reframe as auto-invoked on session open or optional re-entry — not the primary path users type |
+| **Brief data contract** | Add `completed_steps`, `current_step`, `next_step` to lifecycle tracking fields |
+| **Command inventory** | Add a natural language triggers column — what a user would *say* that should route to each command |
+| **MVP success test** | Rewrite from "ran 8 commands" to "never typed a slash command, always knew what came next" |
+| **Consulting track** | Add the 5-6 command consulting sequence so routing works for both tracks |
+
+---
+
+> **Note:** This spec already tracks `phase`, `current_feature`, and `shipped_versions` in the Data Contract. For natural language routing, `completed_steps`, `current_step`, and `next_step` may overlap with `phase`. When finalizing the brief format, evaluate whether these can be consolidated into the existing `phase` field rather than added as separate fields.
