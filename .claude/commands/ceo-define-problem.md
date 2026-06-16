@@ -66,6 +66,8 @@ Show this explainer, then go straight into Q1 for their track:
 > **What you'll walk away with:** a one-page Problem Statement — who has the problem, what they do about it today, and the progress they're really after. It's the foundation every other command builds on.
 >
 > **Takes about 10 minutes. Let's go.**
+>
+> **One tip:** Try answering by voice if you can — speaking out loud tends to surface details and context that typing filters out. The more you share, the sharper your Problem Statement will be. Just hit the microphone icon and talk through your answer naturally.
 
 Then ask Q1 for their track (below).
 
