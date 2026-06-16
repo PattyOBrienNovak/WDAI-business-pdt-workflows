@@ -1,0 +1,39 @@
+Huddle notes: 6/9/26 in #proj-business-pdt-workflowAI took notes for this huddle from 11:04:00 AM - 12:30:38 PM PDT. @Anennya, @Aparna Ramesh, and @Patty OBrien Novak refined the MVP specification for a natural-language-triggered workflow tool, focusing on command structure, shared memory architecture, and framework integration. View huddle in channel
+
+:handshake: Attendees
+
+@Aparna Ramesh, @Anennya, and @Patty OBrien Novak
+
+:star: Summary
+
+* Slack notification overload and tool exploration
+    * @Anennya reported that Women Defining AI Slack channels generate overwhelming message volume requiring full-time effort to track [1:25].
+    * @Patty OBrien Novak uses Dispatch (a Cowork beta feature) to receive daily Slack digests on their phone, automatically adding tasks to a tracker [2:22], [2:33].
+    * @Anennya abandoned Cowork and Dispatch due to token intensity and poor multi-project support compared to Cloud Code [8:26].
+* CEO-define-problem command structure and output
+    * @Aparna Ramesh built a slash command that asks four questions to clarify target customer, current workflow, and problem statement, outputting a one-page problem definition [32:18].
+    * The command saves results to a shared business brief so downstream commands inherit context without re-asking [30:40].
+    * @Anennya confirmed the command structure looks good and appears in the skills list as both a slash command and skill [31:42].
+* Natural language triggering vs. slash commands
+    * @Patty OBrien Novak proposed that users should not need to invoke slash commands; instead, Claude reads the shared brief and routes users based on natural language queries [53:06], [57:32].
+    * @Anennya emphasized that skills should trigger via natural language intent matching rather than explicit slash commands, with a slash-start entry point as fallback [33:54].
+    * @Patty OBrien Novak outlined a user flow where Claude detects journey stage (new, mid-journey, returning) and surfaces the appropriate next step without requiring command syntax [53:39], [53:57].
+* Iterative vs. foundational command distinction
+    * @Anennya noted that some commands (e.g., tech stack selection) are one-time foundational, while others (e.g., shipping, feature scoping) are iterative and reused throughout the project lifecycle [51:01], [51:19].
+    * The team acknowledged this distinction affects how commands are triggered and sequenced but has not yet fully defined the design implications [38:04].
+* Shared business brief architecture options
+    * @Patty OBrien Novak presented three storage approaches: flat markdown (simple but hard to parse), YAML frontmatter plus narrative (machine and human readable), and modular folder structure with per-domain files [1:10:36], [1:10:55], [1:11:32].
+    * @Patty OBrien Novak favors the modular approach but noted that an index file could drift out of sync unless automatically regenerated at session end [1:11:54], [1:12:18].
+    * @Anennya asked @Patty OBrien Novak to own the shared brief specification as a critical backbone for the entire system [1:14:12].
+* MVP spec refinement and framework integration
+    * @Anennya posted a list of required MVP spec additions: natural language conversation examples, trigger keywords, output specifications per command, shared brief spec, user-friendly naming, and foundational vs. iterative classification [1].
+    * @Anennya proposed that commands should use subskills to select the appropriate framework (e.g., jobs-to-be-done) based on user input rather than applying a single framework to all cases [1:07:29].
+    * @Aparna Ramesh agreed to build out CEO-define-problem subskills and test whether different frameworks are triggered based on input [1:08:14].
+
+:white_check_mark: Action items
+
+* @Aparna Ramesh will build CEO-define-problem subskills and report on framework selection behavior [1:08:14].
+* @Patty OBrien Novak will refine the shared business brief specification, consulting Opus for deeper analysis of storage options [1:13:52].
+* @Anennya will complete MVP spec doc with natural language examples, trigger keywords, and output specifications [1].
+* Team will reconvene Tuesday at 12:30 PM Pacific / 3:30 PM Eastern to review and finalize the MVP spec [1:19:18].
+
