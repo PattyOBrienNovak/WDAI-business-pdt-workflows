@@ -93,7 +93,7 @@
 
 | Role | Commands | Scope |
 |---|---|---|
-| **CEO** | `/ceo-strategy`, `/ceo-hedgehog`, `/ceo-job`, `/ceo-assumptions`, `/ceo-validate` + `/ceo-pivot`, `/ceo-okrs` | All tracks |
+| **CEO** | `/ceo-strategy`, `/ceo-hedgehog`, `/ceo-define-problem`, `/ceo-assumptions`, `/ceo-validate` + `/ceo-pivot`, `/ceo-okrs` | All tracks |
 | **CMO** | `/cmo-positioning`, `/cmo-messaging`, `/cmo-brandidentity`, `/cmo-credibility`, `/cmo-audience`, `/cmo-content` | All tracks |
 | **CRO** | `/cro-draft-offer`, `/cro-final-offer`, `/cro-pricing`, `/cro-outreach`, `/cro-discovery`, `/cro-pitch`, `/cro-grow` | All tracks |
 | **COO** | `/coo-setup`, `/coo-stack`, `/coo-contracts`, `/coo-scope`, `/coo-deliver`, `/coo-getpaid`, `/coo-systemize` (adv) | All tracks |

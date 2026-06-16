@@ -76,7 +76,7 @@ You don't pick what you want to do — you find what sits at the intersection. C
 
 **Why it fits:** This is the antidote to "I build AI workflows." It forces you to articulate what your client is firing (their current solution) and hiring you to do instead. It's also the bridge between CEO work and CMO/CPO work — both downstream roles inherit the JTBD definition.
 
-**How it powers a command:** `/ceo-job` produces a "Job Statement" in Christensen's format: *"When [situation], I want to [motivation], so I can [expected outcome]."*
+**How it powers a command:** `/ceo-define-problem` produces a "Job Statement" in Christensen's format: *"When [situation], I want to [motivation], so I can [expected outcome]."*
 
 ---
 
@@ -161,7 +161,7 @@ Based on the frameworks above, the CEO workflow has 6 sub-commands:
 |---|---|---|
 | **`/ceo-strategy`** | Playing to Win | Walks the founder through the 5-question Strategic Choice Cascade. Output: one-page strategy doc — winning aspiration, where to play, how to win, capabilities, management systems. The canonical reference for every other C-suite workflow. |
 | **`/ceo-hedgehog`** | Hedgehog Concept | Forces the three-circle test: what you can be the best at × what you're passionate about × what drives the economic engine. Output: the founder's Hedgehog statement plus an explicit "saying NO to" list. |
-| **`/ceo-job`** | Jobs to Be Done | Names the job the client is hiring you to do. Output: a Christensen-format Job Statement — "When [situation], I want to [motivation], so I can [expected outcome]." Inherited by CMO and CPO workflows. |
+| **`/ceo-define-problem`** | Jobs to Be Done | Names the job the client is hiring you to do. Output: a Christensen-format Job Statement — "When [situation], I want to [motivation], so I can [expected outcome]." Inherited by CMO and CPO workflows. |
 | **`/ceo-assumptions`** | Theory of the Business | Surfaces the three sets of assumptions (environment, mission, core competencies). Output: an explicit Assumptions Doc. Re-tested in every `/ceo-review`. |
 | **`/ceo-validate`** / **`/ceo-pivot`** | Lean Startup Loop | `/ceo-validate` runs Patty's 3-Filter + 10-Conversation test (Phase 1). `/ceo-pivot` is the explicit reset moment — triggered when assumptions break or validation comes back negative. Output: pivot decision doc. |
 | **`/ceo-okrs`** | OKRs | Sets one quarterly Objective + 3-5 Key Results. Output: quarterly OKR doc. Reviewed and scored every 90 days in `/ceo-review`. |

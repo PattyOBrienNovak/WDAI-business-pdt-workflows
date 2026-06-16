@@ -82,7 +82,7 @@ Her AI-specific "AI behavior cards" concept is preserved and lives inside `/cpo-
 
 **Source:** Clayton Christensen, *Competing Against Luck* (2016).
 
-**What it is:** "People don't buy products; they hire them to do a job." The CPO inherits the Job Statement from the CEO's `/ceo-job` and uses it as the north star for what to build. Format: *"When [situation], I want to [motivation], so I can [expected outcome]."*
+**What it is:** "People don't buy products; they hire them to do a job." The CPO inherits the Job Statement from the CEO's `/ceo-define-problem` and uses it as the north star for what to build. Format: *"When [situation], I want to [motivation], so I can [expected outcome]."*
 
 **Why it fits:** Keeps the product anchored to a real human need rather than a feature wishlist. The same JTBD that grounds CEO strategy grounds product definition — continuity across the org.
 
@@ -206,7 +206,7 @@ POST-LAUNCH LOOP (run repeatedly after real users touch it)
 
 ## Connection to Other C-Suite Workflows
 
-- **CEO → CPO:** The Job Statement from `/ceo-job` is the foundation of `/cpo-define`. The CEO's niche/ICP defines who the product is for.
+- **CEO → CPO:** The Job Statement from `/ceo-define-problem` is the foundation of `/cpo-define`. The CEO's niche/ICP defines who the product is for.
 - **CPO → CTO:** The PRD (especially `/cpo-requirements` + AI behavior cards) is the direct input to the CTO's build work (`/cto-mvp`, `/cto-sprint`). The "feasible" risk test is the CPO→CTO handoff.
 - **CPO → CDO (Design):** User personas from `/cpo-define` feed `/design-user`; requirements from `/cpo-requirements` feed `/design-flows`.
 - **CPO → CRO:** Pricing/packaging constraints from `/cro-pricing` set the scope boundaries `/cpo-scope` must fit within. The product's value proposition feeds the offer.

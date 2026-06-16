@@ -20,7 +20,7 @@ flowchart TD
     START --> CEO
 
     subgraph FOUNDATION ["FOUNDATION"]
-        CEO["/ceo-job\nJTBD — who hires this + for what"]
+        CEO["/ceo-define-problem\nJTBD — who hires this + for what"]
         VAL["/validate\nConfirm people will pay before building"]
         CEO --> VAL
     end
@@ -96,7 +96,7 @@ Run once to establish the foundation. Revisit only on a pivot or major strategic
 
 | Command | What it does | Reads from brief | Writes to brief | Revisit when |
 |---|---|---|---|---|
-| `/ceo-job` | JTBD — who hires this and for what. Seeds everything downstream. | — | `jtbd`, `niche`, `icp` | Pivoting |
+| `/ceo-define-problem` | JTBD — who hires this and for what. Seeds everything downstream. | — | `jtbd`, `niche`, `icp` | Pivoting |
 | `/validate` | Confirm people will pay before building anything | `jtbd`, `icp` | `validation_status`, `signals` | Pivoting |
 | `/design-brand` | Visual identity — colors, typography, logo direction | `niche`, `icp` | `brand_tokens` | Rebranding |
 | `/cto-stack` | Tech stack + build vs. buy decisions | `product_definition`, `founder_technical` | `stack` | Re-platforming |
@@ -165,7 +165,7 @@ The brief tracks lifecycle phase so `/start` always knows where to route:
 
 ```
 brief.phase:
-  "foundation"  → start at /ceo-job
+  "foundation"  → start at /ceo-define-problem
   "prd"         → resume at /cpo-define
   "build"       → resume at current build command
   "shipped"     → offer: new feature or growth commands (Phase 2)
@@ -184,9 +184,9 @@ The stable contract below is what commands read and write, regardless of how the
 
 | Field | Written by | Read by |
 |---|---|---|
-| `jtbd` | `/ceo-job` | `/validate`, `/cpo-define`, `/cpo-requirements` |
-| `niche` | `/ceo-job` | `/design-brand`, `/cmo-positioning` (Phase 2) |
-| `icp` | `/ceo-job` | `/validate`, `/cpo-define`, `/design-brand`, `/cto-pricing` |
+| `jtbd` | `/ceo-define-problem` | `/validate`, `/cpo-define`, `/cpo-requirements` |
+| `niche` | `/ceo-define-problem` | `/design-brand`, `/cmo-positioning` (Phase 2) |
+| `icp` | `/ceo-define-problem` | `/validate`, `/cpo-define`, `/design-brand`, `/cto-pricing` |
 | `validation_status` | `/validate` | `/cpo-define` |
 | `product_definition` | `/cpo-define` | `/cpo-scope`, `/cto-stack`, `/cto-pricing` |
 | `brand_tokens` | `/design-brand` | `/design-flows` |
@@ -223,7 +223,7 @@ The stable contract below is what commands read and write, regardless of how the
 ### What it must do
 
 1. Detect if a brief already exists (returning user vs. first time)
-2. If first time: ask 3 questions to seed the brief, then route to `/ceo-job`
+2. If first time: ask 3 questions to seed the brief, then route to `/ceo-define-problem`
    - What's your product idea? (1-2 sentences)
    - Are you technical or non-technical? (sets `founder_technical`)
    - What track? (consulting / workflow / app — sets `track`)
@@ -234,8 +234,8 @@ The stable contract below is what commands read and write, regardless of how the
 
 | Brief state | Route to |
 |---|---|
-| No brief | First-time flow → `/ceo-job` |
-| `phase: foundation` | `/ceo-job` (or next incomplete foundation command) |
+| No brief | First-time flow → `/ceo-define-problem` |
+| `phase: foundation` | `/ceo-define-problem` (or next incomplete foundation command) |
 | `phase: prd` | `/cpo-define` (or next incomplete PRD command) |
 | `phase: build` | First incomplete build command |
 | `phase: shipped` | Feature loop → name the feature → `/cpo-define` |
@@ -249,7 +249,7 @@ The stable contract below is what commands read and write, regardless of how the
 |---|---|---|
 | Shared business brief — file format, storage, heading conventions | Patty | Every command (they all read/write the brief) |
 | `/start` — full question set + routing logic | Anennya + Patty | End-to-end demo |
-| Naming alignment: `ceo-define-problem` vs. `/ceo-job` | Both | Build consistency |
+| ~~Naming alignment~~ — resolved: canonical name is `/ceo-define-problem` | Both | ✅ Done |
 
 ---
 
@@ -259,7 +259,7 @@ Build in this sequence to unblock downstream work:
 
 1. **Business brief format** — decide file structure and heading conventions
 2. **`/start`** — front door, required for any end-to-end demo
-3. **`/ceo-job`** — foundation anchor (draft exists as `ceo-define-problem`, needs alignment)
+3. **`/ceo-define-problem`** — foundation anchor ✅ built
 4. **`/cpo-define`** — first iterative command; proves the init vs. feature mode pattern works
 5. **`/cto-ai`** — the differentiator; highest unique value, most novel for the audience
 6. **`/validate`** — high leverage, lightweight to build
@@ -267,13 +267,9 @@ Build in this sequence to unblock downstream work:
 
 ---
 
-## Naming Alignment Needed
+## Naming — Resolved
 
-`ceo-define-problem` (currently built by Patty) maps to `/ceo-job` in this spec. The names describe the same thing — decide on the canonical name before building more commands to avoid churn.
-
-Options:
-- Keep `ceo-define-problem` — more descriptive for members
-- Use `ceo-job` — shorter, consistent with the C-suite naming convention (`cpo-define`, `cto-stack`, etc.)
+Canonical name is `/ceo-define-problem`. Decision: descriptive name wins over brevity — members should understand what a command does without needing to learn a shorthand. This sets the convention for future commands.
 
 ---
 

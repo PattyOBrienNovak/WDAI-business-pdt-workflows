@@ -50,7 +50,7 @@ Have domain knowledge and an idea, missing the structured path from idea to ship
 
 | Command | What it does | Writes to brief |
 |---|---|---|
-| `/ceo-job` | JTBD — who hires this product and for what. 10-minute exercise that unlocks everything downstream. | niche, ICP, job statement |
+| `/ceo-define-problem` | JTBD — who hires this product and for what. 10-minute exercise that unlocks everything downstream. | niche, ICP, job statement |
 
 **The PRD block**
 
@@ -77,7 +77,7 @@ The end-to-end journey is complete: a solopreneur runs `/start` and walks away w
 
 **`/cto-ai` is the differentiator.** No other toolkit tells a solopreneur which model to use, how to set up evals, and how to design for when the AI is wrong. That's the command experienced PMs don't have elsewhere either.
 
-**`/ceo-job` is the lightest possible CEO footprint** — one JTBD statement that takes 10 minutes and unlocks everything downstream. The full strategy cascade (Playing to Win, Hedgehog, OKRs) is deferred until phase 2.
+**`/ceo-define-problem` is the lightest possible CEO footprint** — one JTBD statement that takes 10 minutes and unlocks everything downstream. The full strategy cascade (Playing to Win, Hedgehog, OKRs) is deferred until phase 2.
 
 ---
 
